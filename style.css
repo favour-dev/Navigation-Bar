@@ -1,0 +1,55 @@
+*,*::after,*::before{
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.nav{
+    background-color: black;
+    display: flex;
+}
+.left-nav{
+    width: 20%;
+}
+.center-nav{
+    width: 60%;
+    margin-top: 15px;
+}
+.right-nav{
+    width:20%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.freetrial{
+    width: 39%;
+}
+.buy{
+    width: 35%;
+}
+
+.seperator{
+    width: 10%;
+}
+.seperator p{
+    font-size: larger;
+}
+h1{
+    color: orangered;
+    padding-left: 15px;
+}
+p{
+    color: white;
+    padding-left: 15px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left:10px ;
+    font-size: large;
+}
+img{
+    width: 26%;
+    vertical-align: -9px;
+}
